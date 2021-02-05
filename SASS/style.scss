@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "base/color";
+@import "base/fonts";
+@import "base/filter";
+@import "extensions/mixin";
+
+body {
+    background-color: $color-fondo;
+}
+
+.imagen-seccion, .card {
+    filter: $filtro-sombra;
+}
+
+.card-text {
+    font-family: $fuente;
+    font-size: $size-seccion;
+    color: $color-texto;
+    letter-spacing: $espaciado-seccion;
+}
+
+.btn {
+    background-color: none;
+    color: $color-texto;
+    border-top: 1px solid  rgba(181, 4, 19, 0.550);
+}
+
+.btn:hover {
+    color: $color-secundario;
+}
+
+.nav-bar {
+    @include nav-bar;
+}
+
+.titulo-seccion {
+    @include titulos;
+}
+
+.contenido-seccion {
+    @include contenido;
+}
+
+/* Autor de las reseñas */
+.autor-reseñas {
+    color: $color-secundario;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: $size-titulos;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+/* Texto de reseña */
+.contenido-reseñas {
+    color: $color-texto;
+    text-align: center;
+    margin: 10px 100px 20px 100px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+

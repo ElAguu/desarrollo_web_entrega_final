@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.imagen-seccion, .card {
+  -webkit-filter: drop-shadow(8px 10px 8px rgba(49, 49, 49, 0.1));
+          filter: drop-shadow(8px 10px 8px rgba(49, 49, 49, 0.1));
+}
+
+.card-text {
+  font-family: "Questrial", sans-serif;
+  font-size: 1em;
+  color: dimgray;
+  letter-spacing: 3px;
+}
+
+.btn {
+  background-color: none;
+  color: dimgray;
+  border-top: 1px solid rgba(181, 4, 19, 0.55);
+}
+
+.btn:hover {
+  color: #b50413;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(49, 49, 49, 0.25));
+          filter: drop-shadow(4px 4px 10px rgba(49, 49, 49, 0.25));
+  border-bottom: 1px solid rgba(181, 4, 19, 0.55);
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  z-index: 3;
+}
+
+.titulo-seccion {
+  text-align: center;
+  padding: 70px 0 10px 0;
+  color: dimgray;
+  letter-spacing: 30px;
+  font-size: 1.2em;
+  background-color: white;
+  -webkit-filter: drop-shadow(8px 10px 8px rgba(49, 49, 49, 0.1));
+          filter: drop-shadow(8px 10px 8px rgba(49, 49, 49, 0.1));
+  margin-bottom: 50px;
+}
+
+.contenido-seccion {
+  font-family: "Questrial", sans-serif;
+  letter-spacing: 3px;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 20px;
+  text-align: center;
+  color: dimgray;
+}
+
+/* Autor de las reseñas */
+.autor-reseñas {
+  color: #b50413;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+
+/* Texto de reseña */
+.contenido-reseñas {
+  color: dimgray;
+  text-align: center;
+  margin: 10px 100px 20px 100px;
+  font-family: 'PT Serif', serif;
+  letter-spacing: 5px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */

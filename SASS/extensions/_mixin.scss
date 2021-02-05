@@ -1,0 +1,34 @@
+@mixin titulos {
+    text-align: center;
+    padding: 70px 0 10px 0;
+    color: $color-texto;
+    letter-spacing: $espaciado-titulos;
+    font-size: $size-titulos;
+    background-color: rgb(255, 255, 255);
+    filter: $filtro-sombra;
+    margin-bottom: 50px;
+}
+
+@mixin contenido {
+    font-family: $fuente;
+    letter-spacing: $espaciado-seccion;
+    font-size: $size-seccion;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    color: $color-texto;
+}
+
+@mixin nav-bar {
+    display: flex;
+    background-color: $color-fondo-transparencia;
+    filter: $filtro-nav;
+    border-bottom: 1px solid  rgba(181, 4, 19, 0.550);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    justify-content: space-between;
+    padding-top: 10px;
+    z-index: 3;
+}
